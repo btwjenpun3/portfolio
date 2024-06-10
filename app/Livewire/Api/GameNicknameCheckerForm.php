@@ -11,6 +11,12 @@ class GameNicknameCheckerForm extends Component
 
     public $nickname;
 
+    public function mount()
+    {
+        $this->userId = '114935204';
+        $this->zoneId = '2576';
+    }
+
     public function submit()
     {
         try {
