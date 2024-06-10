@@ -115,7 +115,19 @@
             </p>
         </div>
 
+        <p class="mt-5">etc...</p>
+        <hr>
+        <div class="col-md-12 col-12 mt-5">
+            <p>There are still some projects I've completed, but I'm too lazy to add them to this portfolio.</p>
+        </div>
+
     </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <div class="container">
+            <p class="mb-0">© 2024 Muhamad Helmi. All rights reserved.</p>
+        </div>
+    </footer>
 
     @livewireScripts
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
