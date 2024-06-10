@@ -28,13 +28,22 @@
             <div class="col-md-12 col-12">
                 <h3>Hello</h3>
                 <p>I'm Helmi</p>
-                <p>You may find me on <a href="https://www.linkedin.com/in/muhamad-helmi-0785b3185/">LinkedIn</a>
+                <p class="mb-0">You can catch me on <a
+                        href="https://www.linkedin.com/in/muhamad-helmi-0785b3185/">LinkedIn</a> or my
+                    <a href="https://github.com/btwjenpun3">Github</a>
                 </p>
-                <p>I'm a backend-developer, thats why you found this site s**k</p>
-                <p>I dont know about UI/UX, i just know about the result of 1+1</p>
+                <small class="text-info">p.s you wouldn't find much source code there, because 70% my source code are
+                    private.</small>
+                <p class="mt-3">I'm a backend-developer, thats why you found this site s**k</p>
+                <p>I'm not really into UI/UX; I just know that 1+1 equals 2.</p>
             </div>
         </div>
 
+        <hr>
+
+        <h3 class="mt-4">Check out my projects</h3>
+
+        <hr>
 
         <div class="col-md-12 col-12 mt-5">
             <h5 class="text-success">API ID Game Checker </h5>
@@ -60,8 +69,8 @@
             <small class="text-warning">(Private Source Code)</small>
             <p class="mt-3">This is a Top Up Store where you can buy Mobile Game Currency like Mobile Legend
                 Diamonds, Free Fire Diamonds, etc.</p>
-            <p class="mt-3">This site is build using Laravel and Livewire, connected to Xendit Payment Gateway,
-                D*****z for the Merchant, Redis for Queue, and WebSocket for dispatching the real-time event.</p>
+            <p class="mt-3">Built with Laravel and Livewire, it connects to Xendit for payments, D*****z for the
+                merchant, Redis for queues, and WebSocket for real-time events.</p>
             <p class="mb-1">
                 <a href="https://fumolastore.id" target="_blank">Go to Fumola Store</a>
             </p>
@@ -82,14 +91,27 @@
         <div class="col-md-12 col-12 mt-5">
             <h5 class="text-success">Imatech eBilling</h5>
             <small class="text-warning">(Private Source Code)</small>
-            <p class="mt-3">This is automatically Invoice Generator connected to Duitku.com</p>
-            <p class="mt-3">This tool is a Billing System where user can create Single / Recurring Invoices and send
-                to Customer using WhatsApp. Did i said WhatsApp ? YES! This tool connected to WhatsApp Gateway also so
-                Customer received their Invoice through WhatsApp</p>
-            <p class="mt-3">After Invoice sent, customer may choose one of many payment, like Virtual Account, QRIS,
-                or e-Wallet.</p>
+            <p class="mt-3">An automatic invoice generator connected to Duitku.com.</p>
+            <p class="mt-3">This billing system lets you create single or recurring invoices and send them to
+                customers via WhatsApp. Yes, WhatsApp! This tool is connected to a WhatsApp gateway, so customers
+                receive their invoices through WhatsApp.</p>
+            <p class="mt-3">After receiving the invoice, customers can choose from various payment options like
+                Virtual Account, QRIS, or e-Wallet.</p>
             <p class="mb-1 text-primary">
                 <i>URL Private</i>
+            </p>
+        </div>
+
+        <div class="col-md-12 col-12 mt-5">
+            <h5 class="text-success">Game Loot World</h5>
+            <small class="text-warning">(Private Source Code)</small>
+            <p class="mt-3">A game news site that keeps you updated on game giveaways.</p>
+            <p class="mt-3">It fetches data from g******r.com using an API and connects to a Telegram bot. I can type
+                a command to my Telegram bot, and the server will automatically update the news.
+            </p>
+            <p class="mt-3">Build using Laravel only</p>
+            <p class="mb-1">
+                <a href="https://gamelootworld.com" target="_blank">Go to gamelootworld.com</a>
             </p>
         </div>
 
